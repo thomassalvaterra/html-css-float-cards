@@ -5,8 +5,6 @@
 }
 
 body{
-    background-color: #222222;
-    color: white;
     font-family: 'Fredoka', sans-serif;
 }
 
@@ -14,6 +12,15 @@ h1{
     color: #E53170;
     text-align: center;
     margin: 35px;
+    font-size: 50px;
+}
+
+.first-p{
+    font-size: 30px;
+}
+
+.change-color{
+    color: #6495ED;
 }
 
 .container{
@@ -25,7 +32,11 @@ h1{
     float: left;
     width: calc(100% / 3);
     background-color: #0F0E17;
-    margin-top: 2%;
+    margin: 2% 0 2% 0;
+}
+
+.clearfix{
+    margin-top: 25px;
 }
 
 .clearfix::after {
@@ -40,4 +51,12 @@ h1{
 
 .columnImg{
     height: 130px;
+    float: left;
+}
+
+.text{
+    margin:16px;
+    line-height: 30px;
+    padding-left: 150px;
+    color: white;
 }
